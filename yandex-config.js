@@ -11,7 +11,7 @@ module.exports = function (RED) {
     this.devices = config.devices.split(",").map((device) => device.trim());
   }
 
-  RED.nodes.registerType("yandex-config", YandexConfigNode, {
+  RED.nodes.registerType("alice-config", YandexConfigNode, {
     credentials: {
       oauthToken: { type: "password" },
     },

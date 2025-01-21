@@ -24,5 +24,5 @@ module.exports = function (RED) {
     });
   }
 
-  RED.nodes.registerType("yandex-send", YandexSendNode);
+  RED.nodes.registerType("alice-send", YandexSendNode);
 };

@@ -15,7 +15,7 @@ module.exports = function (RED) {
   }
 
   // Регистрируем ноду в Node-RED
-  RED.nodes.registerType("yandex-config", YandexConfigNode, {
+  RED.nodes.registerType("alice-config", YandexConfigNode, {
     credentials: {
       oauthToken: { type: "password" }, // OAuth-токен хранится как пароль
     },
