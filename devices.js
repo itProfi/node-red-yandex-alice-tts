@@ -10,12 +10,12 @@ class YandexDevices {
   async getDevices(token) {
     try {
       const response = await axios.get("https://iot.quasar.yandex.ru/m/user/devices", {
-        headers: { Authorization: Bearer  },
+        headers: { Authorization: `Bearer ${token}` },
       });
 
       return response.data.devices;
     } catch (error) {
-      throw new Error("РћС€РёР±РєР° РїРѕР»СѓС‡РµРЅРёСЏ СѓСЃС‚СЂРѕР№СЃС‚РІ: " + error.message);
+      throw new Error("Ошибка получения устройств: " + error.message);
     }
   }
 }

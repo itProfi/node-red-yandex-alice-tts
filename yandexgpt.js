@@ -19,14 +19,14 @@ class YandexGPT {
         },
         {
           headers: {
-            Authorization: Bearer ,
+            Authorization: `Bearer ${this.config.credentials.iamToken}`,
           },
         }
       );
 
       return response.data.choices[0].message.content;
     } catch (error) {
-      throw new Error("РћС€РёР±РєР° РѕР±СЂР°Р±РѕС‚РєРё С‚РµРєСЃС‚Р° С‡РµСЂРµР· YandexGPT: " + error.message);
+      throw new Error("Ошибка обработки текста через YandexGPT: " + error.message);
     }
   }
 }

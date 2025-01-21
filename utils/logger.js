@@ -2,11 +2,11 @@
 
 class Logger {
   static log(message) {
-    console.log([LOG] );
+    console.log(`[LOG] ${message}`);
   }
 
   static error(message) {
-    console.error([ERROR] );
+    console.error(`[ERROR] ${message}`);
   }
 }
 

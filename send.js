@@ -29,13 +29,13 @@ class YandexSend {
           ],
         },
         {
-          headers: { Authorization: Bearer  },
+          headers: { Authorization: `Bearer ${token}` },
         }
       );
 
       return response.data;
     } catch (error) {
-      throw new Error("РћС€РёР±РєР° РѕС‚РїСЂР°РІРєРё РєРѕРјР°РЅРґС‹: " + error.message);
+      throw new Error("Ошибка отправки команды: " + error.message);
     }
   }
 }
