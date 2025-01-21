@@ -1,0 +1,39 @@
+﻿<script type="text/x-red" data-template-name="yandex-config">
+  <div class="form-row">
+    <label for="node-config-input-name"><i class="fa fa-tag"></i> Name</label>
+    <input type="text" id="node-config-input-name" placeholder="Name">
+  </div>
+  <div class="form-row">
+    <label for="node-config-input-oauthToken"><i class="fa fa-key"></i> OAuth Token</label>
+    <input type="password" id="node-config-input-oauthToken" placeholder="OAuth Token">
+  </div>
+  <div class="form-row">
+    <label for="node-config-input-folderId"><i class="fa fa-folder"></i> Folder ID</label>
+    <input type="text" id="node-config-input-folderId" placeholder="Folder ID">
+  </div>
+  <div class="form-row">
+    <label for="node-config-input-useGPT"><i class="fa fa-magic"></i> Use YandexGPT</label>
+    <input type="checkbox" id="node-config-input-useGPT">
+  </div>
+  <div class="form-row">
+    <label for="node-config-input-devices"><i class="fa fa-microphone"></i> Devices (comma-separated)</label>
+    <input type="text" id="node-config-input-devices" placeholder="Device IDs">
+  </div>
+</script>
+
+<script type="text/html" data-help-name="yandex-config">
+  <p>РљРѕРЅС„РёРіСѓСЂР°С†РёСЏ РґР»СЏ РёРЅС‚РµРіСЂР°С†РёРё СЃ РЇРЅРґРµРєСЃ РђР»РёСЃРѕР№ Рё Yandex Cloud.</p>
+  <h3>РџР°СЂР°РјРµС‚СЂС‹</h3>
+  <dl class="message-properties">
+    <dt>Name <span class="property-type">string</span></dt>
+    <dd>РРјСЏ РєРѕРЅС„РёРіСѓСЂР°С†РёРё (РґР»СЏ РѕС‚РѕР±СЂР°Р¶РµРЅРёСЏ РІ РёРЅС‚РµСЂС„РµР№СЃРµ).</dd>
+    <dt>OAuth Token <span class="property-type">password</span></dt>
+    <dd>OAuth-С‚РѕРєРµРЅ РґР»СЏ Р°РІС‚РѕСЂРёР·Р°С†РёРё РІ Yandex Cloud.</dd>
+    <dt>Folder ID <span class="property-type">string</span></dt>
+    <dd>РРґРµРЅС‚РёС„РёРєР°С‚РѕСЂ РєР°С‚Р°Р»РѕРіР° РІ Yandex Cloud.</dd>
+    <dt>Use YandexGPT <span class="property-type">boolean</span></dt>
+    <dd>РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ YandexGPT РґР»СЏ РѕР±СЂР°Р±РѕС‚РєРё С‚РµРєСЃС‚Р°.</dd>
+    <dt>Devices <span class="property-type">string</span></dt>
+    <dd>РЎРїРёСЃРѕРє РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂРѕРІ СѓСЃС‚СЂРѕР№СЃС‚РІ, СЂР°Р·РґРµР»РµРЅРЅС‹С… Р·Р°РїСЏС‚С‹РјРё.</dd>
+  </dl>
+</script>
