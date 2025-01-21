@@ -1,12 +1,12 @@
 ﻿{
-  "name": "@ksrt12/node-red-yandex-alice-command",
+  "name": "node-red-yandex-alice-tts",
   "version": "2.0.5",
   "description": "Node-RED node for sending commands and TTS to Yandex Alice devices.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Anton Tumilovich, Stepan Kazakov",
+  "author": "I am",
   "license": "GPL-3.0",
   "node-red": {
     "version": ">=2.0.0",
@@ -29,10 +29,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ksrt12/node-red-yandex-alice-command.git"
+    "url": "git+https://github.com/itProfi/node-red-yandex-alice-tts.git"
   },
   "bugs": {
     "url": "https://github.com/ksrt12/node-red-yandex-alice-command/issues/"
   },
-  "homepage": "https://github.com/ksrt12/node-red-yandex-alice-command"
+  "homepage": "https://github.com/itProfi/node-red-yandex-alice-tts"
 }

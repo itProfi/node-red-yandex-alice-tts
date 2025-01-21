@@ -6,4 +6,4 @@ This Node-RED node allows you to send commands and TTS (Text-to-Speech) to Yande
 
 1. Install the node via npm:
    `ash
-   npm install @ksrt12/node-red-yandex-alice-command
+   npm install node-red-yandex-alice-tts
